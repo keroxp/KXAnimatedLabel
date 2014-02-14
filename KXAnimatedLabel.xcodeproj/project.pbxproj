@@ -21,6 +21,7 @@
 		A62FE7F818AE4DF900F12E3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62FE7DA18AE4DF900F12E3A /* UIKit.framework */; };
 		A62FE80018AE4DF900F12E3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A62FE7FE18AE4DF900F12E3A /* InfoPlist.strings */; };
 		A62FE80218AE4DF900F12E3A /* KXAnimatedLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A62FE80118AE4DF900F12E3A /* KXAnimatedLabelTests.m */; };
+		A62FE81118AE4E2A00F12E3A /* KXAnimatedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A62FE81018AE4E2A00F12E3A /* KXAnimatedLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A62FE7FD18AE4DF900F12E3A /* KXAnimatedLabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KXAnimatedLabelTests-Info.plist"; sourceTree = "<group>"; };
 		A62FE7FF18AE4DF900F12E3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A62FE80118AE4DF900F12E3A /* KXAnimatedLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXAnimatedLabelTests.m; sourceTree = "<group>"; };
+		A62FE80F18AE4E2A00F12E3A /* KXAnimatedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXAnimatedLabel.h; sourceTree = "<group>"; };
+		A62FE81018AE4E2A00F12E3A /* KXAnimatedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXAnimatedLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		A62FE7CA18AE4DF900F12E3A = {
 			isa = PBXGroup;
 			children = (
+				A62FE80E18AE4E2A00F12E3A /* Classes */,
 				A62FE7DC18AE4DF900F12E3A /* KXAnimatedLabel */,
 				A62FE7FB18AE4DF900F12E3A /* KXAnimatedLabelTests */,
 				A62FE7D518AE4DF900F12E3A /* Frameworks */,
@@ -150,6 +154,15 @@
 				A62FE7FE18AE4DF900F12E3A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A62FE80E18AE4E2A00F12E3A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A62FE80F18AE4E2A00F12E3A /* KXAnimatedLabel.h */,
+				A62FE81018AE4E2A00F12E3A /* KXAnimatedLabel.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +265,7 @@
 			files = (
 				A62FE7ED18AE4DF900F12E3A /* KXViewController.m in Sources */,
 				A62FE7E318AE4DF900F12E3A /* main.m in Sources */,
+				A62FE81118AE4E2A00F12E3A /* KXAnimatedLabel.m in Sources */,
 				A62FE7E718AE4DF900F12E3A /* KXAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
