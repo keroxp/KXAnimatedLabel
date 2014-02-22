@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "KXAnimatedLabel.h"
 @interface KXViewController : UIViewController
-
+<KXAnimatedLabelDelegate>
 @end
